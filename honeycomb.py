@@ -2,6 +2,8 @@ import turtle as t # this allows you to use all turtle methods through t.methodn
 
 
 t.color("brown")
+t.speed(0)  # 0 is the fastest speed possible
+
 
 def drawhexagon():
     for i in range(6): # repeat the code 6 times
@@ -13,11 +15,9 @@ def moveposition():
     t.back(30)
 
 def movepositionright():
-    #t.back(30)
     t.right(120)
     t.forward(30)
     t.left(60)
-    #t.forward(30)
 
 while True: # this turtle will draw forever
     for i in range(3):
@@ -33,4 +33,4 @@ while True: # this turtle will draw forever
 
 
 
-t.mainloop()
+t.done()

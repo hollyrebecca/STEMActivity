@@ -17,4 +17,4 @@ while True: # this turtle will draw forever
 
 t.end_fill()
 
-t.mainloop()
+t.done()

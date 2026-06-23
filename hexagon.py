@@ -27,4 +27,4 @@ t.right(60)
 
 t.end_fill() # fill the completed shape with color
 
-t.mainloop()
+t.done()
