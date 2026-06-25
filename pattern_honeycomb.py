@@ -1,5 +1,6 @@
 import turtle as t # this allows you to use all turtle methods through t.methodname
 
+t.teleport(-200,200)
 
 t.color("brown")
 t.speed(0)  # 0 is the fastest speed possible
