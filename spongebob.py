@@ -1,5 +1,5 @@
 import turtle
-import math
+# import math
 
 # Setup the drawing window
 screen = turtle.Screen()

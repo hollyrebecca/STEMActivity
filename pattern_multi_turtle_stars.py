@@ -2,6 +2,9 @@ import turtle
 import time
 
 # 1. Disable automatic screen updates and enable manual frame-by-frame control
+# Without it, turtle updates the screen after every single drawing command, very slow.
+# With tracer(0), all drawing happens invisibly in the background.
+# turtle.update() then renders everything at once, giving us smooth frame-by-frame animation.
 turtle.tracer(0)
 turtle.bgcolor("black")  # Premium black background
 colors = ["#39FF14", "#FF007F", "#00FFFF", "#7B00FF"]
@@ -45,6 +48,7 @@ for step in range(total_steps):
     turtle.update()
     
     # Speed Control: Smooth, elegant, and perfectly trackable animation pace
+    # search: python pause for seconds
     time.sleep(0.06)
 
 # 3. Clean up the final artwork
