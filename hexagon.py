@@ -2,27 +2,36 @@ import turtle as t # this allows you to use all turtle methods through t.methodn
 
 t.pensize(8) # set the thickness of the pen
 
-t.teleport(-300,400) # move directly to the specific coordinate without drawing on the way
-
-t.fillcolor("blue") 
+# t.teleport(-300,400) # move directly to the specific coordinate without drawing on the way
+# if python version is lower than 3.12, use the following
+# t.penup()
+# t.setpos(-100,200)
+# t.pendown()
+t.fillcolor("brown") 
 t.begin_fill() # any completed shape will be filled in
 
-t.forward(500)
+t.pencolor("red")
+t.forward(100)
 t.right(60) # the angle of a shape is equal to 360 / number of sides
 
-t.forward(500)
+t.pencolor("orange")
+t.forward(100)
 t.right(60)
 
-t.forward(500)
+t.pencolor("yellow")
+t.forward(100)
 t.right(60)
 
-t.forward(500)
+t.pencolor("green")
+t.forward(100)
 t.right(60)
 
-t.forward(500)
+t.pencolor("blue")
+t.forward(100)
 t.right(60)
 
-t.forward(500)
+t.pencolor("purple")
+t.forward(100)
 t.right(60)
 
 t.end_fill() # fill the completed shape with color
